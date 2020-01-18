@@ -8,8 +8,8 @@ const int B = 15;
  
 const char* ssid = "yale wireless";
 const char* password =  "";
-const char* mqttServer = "35.239.98.209";
-const int mqttPort = 14479;
+const char* mqttServer = "35.239.98.209";   //35.239.98.209 for our python server    farmer.cloudmqtt.com for cloud mqtt
+const int mqttPort = 14479;                 
 const char* mqttUser = "yale";
 const char* mqttPassword = "lightsnstuff";
  
