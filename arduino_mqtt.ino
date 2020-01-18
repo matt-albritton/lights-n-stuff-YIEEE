@@ -10,8 +10,8 @@ const char* ssid = "yale wireless";
 const char* password =  "";
 const char* mqttServer = "35.239.98.209";   //35.239.98.209 for our python server    farmer.cloudmqtt.com for cloud mqtt
 const int mqttPort = 14479;                 
-const char* mqttUser = "yale";
-const char* mqttPassword = "lightsnstuff";
+const char* mqttUser = "yale";             // yale for ours.    xoemllsy for cloud mqtt
+const char* mqttPassword = "lightsnstuff";     //lightsnstuff for ours,    hdgazSRFNst3 for cloudmqtt
  
 WiFiClient espClient;
 PubSubClient client(espClient);
