@@ -2,16 +2,16 @@
 #include <PubSubClient.h>
 
 const char* deviceID = "001";
-const int R = 16;
+const int R = 15;
 const int G = 12;
-const int B = 15;
+const int B = 16;
  
-const char* ssid = "yale wireless";
+const char* ssid = "yale wireless";             //
 const char* password =  "";
-const char* mqttServer = "35.239.98.209";   //35.239.98.209 for our python server    farmer.cloudmqtt.com for cloud mqtt
-const int mqttPort = 14479;                 
-const char* mqttUser = "yale";             // yale for ours.    xoemllsy for cloud mqtt
-const char* mqttPassword = "lightsnstuff";     //lightsnstuff for ours,    hdgazSRFNst3 for cloudmqtt
+const char* mqttServer = "farmer.cloudmqtt.com";    //35.239.98.209 for our python server    farmer.cloudmqtt.com for cloud mqtt
+const int mqttPort = 14479;  
+const char* mqttUser = "xoemllsy";     // yale for ours.    xoemllsy for cloud mqtt
+const char* mqttPassword = "hdgazSRFNst3";    //lightsnstuff for ours,    hdgazSRFNst3 for cloudmqtt
  
 WiFiClient espClient;
 PubSubClient client(espClient);
